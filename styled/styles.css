@@ -4,6 +4,10 @@ body {
     margin: auto auto;
 }
 
+/*
+    TYPOGRAPHY
+*/
+
 h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,6 +19,53 @@ h1 {
 li {
     margin: auto auto 8px 8px;
 }
+
+h1.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 48px;
+}
+
+/*
+    CARDS
+*/
+.card-container {
+    display: inline;
+}
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.card,
+div.card img {
+    width: 200px;
+}
+
+div.card {
+    height: auto;
+    text-align: center;
+    margin: auto auto 50px;
+    transition: 0.4s;
+}
+
+div.card:hover{
+    opacity: calc(80%);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+div.card img {
+    height: auto;
+    border-radius: 8px;
+}
+
+/*
+    RECIPE PAGE
+*/
 
 img {
     width: 300px;
@@ -32,6 +83,10 @@ div.credits a {
     font-size: 16px;
     color: gray;
 }
+
+/*
+    NAVBAR
+*/
 
 div.navbar {
     font-weight: 800;
