@@ -1,0 +1,24 @@
+body {
+    width: 50%;
+    display: block;
+    margin: auto auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    margin: auto auto 8px 8px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
